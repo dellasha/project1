@@ -1,0 +1,23 @@
+
+
+.name1{color: #b56357; font-weight: bold;}
+
+/* .col-md{ margin-left: 50px;} */
+
+.ion-ios-arrow-round-down:before{
+  color: #b56357;}
+
+.btn_box{width: 100%;}
+.home01{ 
+  background-color: #fff; 
+  margin-top: 20px; width: 120px;
+  display: block; color: #b56357; float: left; 
+  padding: 5px 10px;}  
+.page01{ 
+  background-color: #fff; 
+  margin-top: 20px; width: 120px;
+  display: block; color: #b56357; float: left; 
+  padding: 5px 10px; margin-left: 20px;}
+
+.home01:hover{ color: #fff; background-color: #5e1e15;}
+.page01:hover{  color: #fff; background-color: #5e1e15;}
