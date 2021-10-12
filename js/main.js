@@ -440,3 +440,29 @@ $(function() {
 
 });
 
+/* 이징 그래프 */
+
+$(document).ready(function(){//시작
+
+	$('.chart').easyPieChart({
+		  easing: 'easeOutBounce',
+		  barColor:'#b56357',
+		  onStep: function(from, to, percent) {
+			  $(this.el).find('.percent').text(Math.round(percent));
+		  }
+	  });
+
+  
+	  // var chart = window.chart = $('.chart').data('easyPieChart');
+	  // $('.js_update').on('click', function() {
+	  // 	chart.update(Math.random()*200-100);
+	  // });
+
+
+  })//끝
+
+
+
+
+
+

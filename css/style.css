@@ -269,8 +269,9 @@ legend {
   color: inherit;
   white-space: normal; }
 
-progress {
-  vertical-align: baseline; }
+progress { /* progress 여기를 해봐도 아직 티가 안남 */
+  vertical-align: baseline;
+}
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
@@ -1043,6 +1044,7 @@ pre {
     flex: 0 0 25%;
     max-width: 25%; }
   .col-lg-4 {
+   
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
@@ -4327,7 +4329,9 @@ input[type="button"].btn-block {
   overflow: hidden;
   font-size: 0.75rem;
   background-color: #e9ecef;
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem; 
+  /* display: none; */
+}
 
 .progress-bar {
   display: -webkit-box;
@@ -4346,7 +4350,8 @@ input[type="button"].btn-block {
   background-color: #007bff;
   -webkit-transition: width 0.6s ease;
   -o-transition: width 0.6s ease;
-  transition: width 0.6s ease; }
+  transition: width 0.6s ease;
+}
   @media (prefers-reduced-motion: reduce) {
     .progress-bar {
       -webkit-transition: none;
