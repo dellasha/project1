@@ -49,33 +49,41 @@
 	      </div>
 	    </div>
 	  </nav>
-	  <section class="hero-wrap js-fullheight">
-      <div class="overlay"></div>
+	  <section class="hero-wrap js-fullheight bubble_wrap">
+      <div class="overlay"></div><!--css 8403 -> background: #f7f5e6; -->
+	  <canvas id="bubble" style="width: 100%; height:100%;"
+	  width="1157" height="969"></canvas>
+	  <!--canvas 동그라미 만들기-->
+
+	  <div class="text text-center text_wrap">
+		<span class="subheading">Hey! I am</span>
+				<h1>MIN JI CHO</h1>
+					<h2>I'm a 
+						<span
+						   class="txt-rotate"
+						   data-period="2000"
+						   data-rotate='[ " Web Designer.", " UI/UX Designer.",
+							   " Graphic Designer." ]'></span>
+					  </h2>
+				  </div><!--text_wrap-->
+
+	  
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
           <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
-          	<div class="text text-center">
-          		<span class="subheading">Hey! I am</span>
-		  				<h1>MIN JI CHO</h1>
-			  				<h2>I'm a 
-								  <span
-								     class="txt-rotate"
-								     data-period="2000"
-								     data-rotate='[ " Web Designer.", " UI/UX Designer.",
-										 " Graphic Designer." ]'></span>
-
-								</h2>
-							</div>
+			  
             </div>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
       <div class="mouse">
 				<a href="#" class="mouse-icon">
 					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
 				</a>
 			</div>
     </section>
+
+	<!--여기 까지 배너-->
 
     <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
     	<div class="container">
@@ -99,10 +107,10 @@
 		            <ul class="about-info mt-4 px-md-0 px-2">
 		            	<li class="d-flex"><span>Name:</span> <span>CHO MINJI</span></li>
 		            	<li class="d-flex"><span>Date of birth:</span> <span>August 1, 1994</span></li>
-		            	<li class="d-flex"><span>Address:</span> <span>Busan,Republic of Korea</span></li>
+		            	<li class="d-flex"><span>Address:</span> <span>Busan, Republic of Korea</span></li>
 		            	<!-- <li class="d-flex"><span>Zip code:</span> <span>1000</span></li> -->
 		            	<li class="d-flex"><span>Email:</span> <span>dellasha@naver.com</span></li>
-		            	<li class="d-flex"><span>Phone: </span> <span>010-4128-4200</span></li>
+		            	<!-- <li class="d-flex"><span>Phone: </span> <span>010-4128-4200</span></li> -->
 		            </ul>
 		          </div>
 		        </div>
@@ -158,28 +166,28 @@
 					<div class="col-md-9">
 					  <div id="page-1" class= "page one">
 					  	<h2 class="heading">Education</h2>
+
 					    <div class="resume-wrap d-flex ftco-animate">
 					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2013 ~ 2018</span>
+		    					<h2>관광경영학과 졸업</h2>
+		    					<span class="position">동서대학교</span>
+		    					<!-- <p></p> -->
+	    					</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
 					    		<span class="flaticon-ideas"></span>
 					    	</div>
 					    	<div class="text pl-3">
 		    					<span class="date">2021</span>
 		    					<h2>반응협 웹퍼블리싱 & 웹디자인 수료</h2>
 		    					<span class="position">부산IT교육센터</span>
-		    					<!-- <p></p> -->
-	    					</div>
-	    				</div>
-	    				<!-- <div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2014-2015</span>
-		    					<h2>Computer Processing Systems/Computer Software</h2>
-		    					<span class="position">Cambridge University</span>
-		    		
 		    				</div>
-	    				</div> -->
+	    				</div>
 	    				<!-- <div class="resume-wrap d-flex ftco-animate">
 	    					<div class="icon d-flex align-items-center justify-content-center">
 					    		<span class="flaticon-ideas"></span>
@@ -278,7 +286,7 @@
 					  	<div class="row progress-circle mb-5">
 					  		<div class="col-lg-4 mb-4">
 						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
+						        <h2 class="h5 font-weight-bold text-center mb-4 h_title">CSS</h2>
 <!--그래프 만들기-->
 
 <span class="chart" data-percent="85">
@@ -313,7 +321,7 @@
 
 						    <div class="col-lg-4 mb-4">
 						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
+						        <h2 class="h5 font-weight-bold text-center mb-4 h_title">HTML</h2>
 <!--그래프 만들기-->
 
 <span class="chart" data-percent="90">
@@ -348,7 +356,7 @@
 
 						    <div class="col-lg-4 mb-4">
 						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center mb-4">jQuery</h2>
+						        <h2 class="h5 font-weight-bold text-center mb-4 h_title">jQuery</h2>
 
 <!--그래프 만들기-->
 
@@ -909,15 +917,15 @@
     </section>
 		 -->
 
-    <footer class="ftco-footer ftco-section">
+    <footer class="ftco-footer ftco-section footer_change">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">About</h2>
+              <!-- <h2 class="ftco-heading-2">About</h2>
               <p>I will become a designer<br>
 								who learns many new and necessary skills<br>
-								and develops further.</p>
+								and develops further.</p> -->
               <!-- <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -951,14 +959,13 @@
           </div> -->
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<!-- <h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">Busan, Republic of Korea</span></li>
-	                <!-- <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li> -->
 	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">dellasha@naver.com</span></a></li>
 	              </ul>
-	            </div>
+	            </div> -->
             </div>
           </div>
         </div>
@@ -968,14 +975,14 @@
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 
   <!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
-	All rights reserved <i class="icon-heart color-danger" aria-hidden="true"></i>  --> Thanks for watching till the end. by CHOMINJI
+	All rights reserved <i class="icon-heart color-danger" aria-hidden="true"></i>  --> 본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.<br>
+	© 2021 CHO, MIN-JI. All Rights Reserved.
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
       </div>
     </footer>
     
-  
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>

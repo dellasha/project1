@@ -1,36 +1,44 @@
 
-.name1{color: #b56357; font-weight: bold;}
+.name1{
+  /* background-color: rgba(158,213,246,0.5); */
+  color: #425a73; 
+  font-weight: 700;}
 
 /* .col-md{ margin-left: 50px;} */
 
 .ion-ios-arrow-round-down:before{
-  color: #b56357;}
+  color: #425a73;}
 
 .btn_box{width: 100%;}
 
 .home01, .page01, .sub01{ 
   background-color: #fff; 
+  /* border: 1px solid #fff; */
   margin-top: 20px; width: 120px;
-  display: block; color: #b56357; float: left; 
-  padding: 5px 10px;}  
-
+  display: block; color: #474747; 
+  float: left; 
+  padding: 5px 10px;
+  border-radius: 5px;
+}  
 .home02{
   background-color: #fff; 
   margin-top: 20px; width: 130px;
-  display: block; color: #b56357; float: left; 
+  display: block; color: #474747; float: left; 
   padding: 5px 10px;
+  border-radius: 5px;
+}
+.page01{ 
+ margin-left: 20px;
+}
+.sub01{  margin-left: 20px;
 }
 
-.page01{ 
- margin-left: 20px;}
-
-.sub01{  margin-left: 20px;}
-
-.home01:hover{ color: #fff; background-color: #5e1e15;}
-.home02:hover{ color: #fff; background-color: #5e1e15;}
-.page01:hover{  color: #fff; background-color: #5e1e15;}
-.home01:hover{ color: #fff; background-color: #5e1e15;}
-.sub01:hover{  color: #fff; background-color: #5e1e15;}
+.home01:hover{ 
+color: #fff; background-color: #111;}
+.home02:hover{ color: #fff; background-color: #425a73;}
+.page01:hover{  color: #fff; background-color: #FF8303;}
+/* .home01:hover{ color: #fff; background-color: #5e1e15;} */
+.sub01:hover{  color: #fff; background-color: #425a73;}
 
 
 
@@ -58,7 +66,7 @@
   z-index: 2;
   font-weight: bold;
   font-size: 20px;
-  color: #222;
+  color: #333;
   margin-left: 5px;
 }
 .percent:after {
@@ -67,6 +75,53 @@
   font-size: .8em;
 }
 
+/* 배너 다시 만들기 */
+
+.bubble_wrap{
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+.text_wrap{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.subheading, .text_wrap h1, .text_wrap h2{
+ font-weight: bold;
+}
+.subheading{
+  font-size: 25px;
+  color: #425a73;
+}
+.text_wrap h1{
+  font-size: 50px;
+  color: #333;
+}
+.text_wrap h2{
+  font-size: 50px;
+  color: #333;
+}
+.txt-rotate{
+ font-size: 45px;
+ text-decoration: underline;
+  font-weight: bold;
+  color: #425a73;
+}
+.h_title{
+  color: #425a73;
+}
+
+
+footer.ftco-section{
+  padding: 0;
+}
+footer .mb-5{
+  margin-bottom: 0rem !important;
+}
 
 
 
